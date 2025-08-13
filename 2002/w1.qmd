@@ -1,0 +1,55 @@
+---
+title: "My awesome report"
+date: "YYYY-MM-DD"
+author: "Your name here"
+format: 
+  html: 
+    ### IMPORTANT ###
+    embed-resources: true # Creates a single HTML file as output
+    code-fold: show # Code folding; allows you to show/hide code chunks
+    ### USEFUL ###
+    code-tools: true # Includes a menu to download the code file
+    ### OPTIONAL ###
+    code-line-numbers: true # Line numbers in code chunks
+    df-print: paged # Sets how dataframes are automatically printed
+    theme: lux # Controls the font, colours, etc.
+table-of-contents: true # (Useful) Creates a table of contents!
+number-sections: true # (Optional) Puts numbers next to heading/subheadings
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+library(palmerpenguins)
+library(tidyverse)
+library(janitor)
+```
+
+You can add options to executable code like this
+
+```{r}
+penguins
+```
+
+```{r}
+library("ggplot2")
+penguins |> 
+  ggplot() + 
+  aes(x = bill_depth_mm, 
+      y = flipper_length_mm,
+      colour = sex) +
+  geom_point() + 
+  labs(x = "Body mass (g)",
+       y = "Flipper length (mm)",
+       colour = "Species") +
+  facet_wrap(~species + island) +
+  geom_smooth(method = "lm")
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).

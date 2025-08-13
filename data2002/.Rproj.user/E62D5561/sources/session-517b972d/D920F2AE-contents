@@ -1,0 +1,25 @@
+---
+title: "w2"
+format: html
+editor: visual
+---
+
+```{r}
+
+```
+
+
+```{r}
+library("tidyverse") 
+# If you download the data file first you can read it in using the 
+# readxl package if it's in your current working directory:
+fdata = readxl::read_excel("bitre_fatalities_jun2024.xlsx", sheet = 2, skip = 4, na = c("","-9"), guess_max = 1e6)
+```
+
+You can add options to executable code like this
+
+```{r}
+glimpse(fdata)
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).

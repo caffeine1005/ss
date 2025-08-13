@@ -1,0 +1,36 @@
+"0","glimpse(fdata)
+"
+"1","Rows: 56,218"
+"1",""
+"1","
+"
+"1","Columns: 23"
+"1",""
+"1","
+"
+"1","$ `Crash ID`                      [3m[38;5;246m<dbl>[39m[23m 20242084, 20245028, 20245028, 20242121, 20243034, 20243098, 20243034, 20242085, 20244020, 20241148, 20241046, 20242007,…
+$ State                           [3m[38;5;246m<chr>[39m[23m ""Vic"", ""WA"", ""WA"", ""Vic"", ""Qld"", ""Qld"", ""Qld"", ""Vic"", ""SA"", ""NSW"", ""NSW"", ""Vic"", ""Qld"", ""Qld"", ""SA"", ""NSW"", ""Qld"", ""Qld…
+$ Month                           [3m[38;5;246m<dbl>[39m[23m 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,…
+$ Year                            [3m[38;5;246m<dbl>[39m[23m 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024,…
+$ Dayweek                         [3m[38;5;246m<chr>[39m[23m ""Friday"", ""Friday"", ""Friday"", ""Friday"", ""Friday"", ""Friday"", ""Friday"", ""Friday"", ""Friday"", ""Friday"", ""Friday"", ""Friday"",…
+$ Time                            [3m[38;5;246m<dttm>[39m[23m 1899-12-31 04:55:00, 1899-12-31 08:55:00, 1899-12-31 08:55:00, 1899-12-31 12:50:00, 1899-12-31 14:00:00, 1899-12-31 14…
+$ `Crash Type`                    [3m[38;5;246m<chr>[39m[23m ""Single"", ""Single"", ""Single"", ""Single"", ""Single"", ""Single"", ""Single"", ""Single"", ""Single"", ""Single"", ""Multiple"", ""Multip…
+$ `Bus Involvement`               [3m[38;5;246m<chr>[39m[23m NA, ""No"", ""No"", NA, ""No"", ""No"", ""No"", NA, ""No"", ""No"", ""No"", NA, ""Yes"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", …
+$ `Heavy Rigid Truck Involvement` [3m[38;5;246m<chr>[39m[23m NA, ""Yes"", ""Yes"", NA, ""No"", ""No"", ""No"", NA, ""No"", ""No"", ""No"", NA, ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"",…
+$ `Articulated Truck Involvement` [3m[38;5;246m<chr>[39m[23m NA, ""No"", ""No"", NA, ""No"", ""No"", ""No"", NA, ""No"", ""No"", ""No"", NA, ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", N…
+$ `Speed Limit`                   [3m[38;5;246m<chr>[39m[23m NA, ""110"", ""110"", NA, ""80"", ""80"", ""80"", NA, ""80"", ""60"", ""60"", ""60"", ""40"", ""60"", ""60"", ""100"", ""100"", ""100"", ""100"", ""100""…
+$ `Road User`                     [3m[38;5;246m<chr>[39m[23m ""Pedestrian"", ""Passenger"", ""Driver"", ""Driver"", ""Passenger"", ""Driver"", ""Driver"", ""Motorcycle rider"", ""Driver"", ""Pedestri…
+$ Gender                          [3m[38;5;246m<chr>[39m[23m ""Male"", ""Female"", ""Female"", ""Male"", ""Male"", ""Male"", ""Female"", ""Male"", ""Male"", ""Male"", ""Male"", ""Female"", ""Male"", ""Female…
+$ Age                             [3m[38;5;246m<dbl>[39m[23m 34, 82, 82, 73, 0, 18, 33, 20, 58, 80, 22, 29, 44, 24, 85, 47, 15, 8, 54, 36, 84, 83, 63, 46, 19, 76, 22, 25, 24, 44, 5…
+$ `National Remoteness Areas`     [3m[38;5;246m<chr>[39m[23m NA, NA, NA, NA, ""Major Cities of Australia"", ""Outer Regional Australia"", ""Major Cities of Australia"", NA, ""Major Cities…
+$ `SA4 Name 2021`                 [3m[38;5;246m<chr>[39m[23m NA, NA, NA, NA, ""Moreton Bay - North"", ""Darling Downs - Maranoa"", ""Moreton Bay - North"", NA, ""Adelaide - South"", ""Hunte…
+$ `National LGA Name 2021`        [3m[38;5;246m<chr>[39m[23m NA, NA, NA, NA, ""Moreton Bay"", ""Toowoomba"", ""Moreton Bay"", NA, ""Onkaparinga"", ""Cessnock"", ""Central Coast"", ""Greater Dan…
+$ `National Road Type`            [3m[38;5;246m<chr>[39m[23m NA, NA, NA, NA, ""Collector Road"", ""Collector Road"", ""Collector Road"", NA, ""National or State Highway"", ""Arterial Road"",…
+$ `Christmas Period`              [3m[38;5;246m<chr>[39m[23m ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"",…
+$ `Easter Period`                 [3m[38;5;246m<chr>[39m[23m ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"", ""No"",…
+$ `Age Group`                     [3m[38;5;246m<chr>[39m[23m ""26_to_39"", ""75_or_older"", ""75_or_older"", ""65_to_74"", ""0_to_16"", ""17_to_25"", ""26_to_39"", ""17_to_25"", ""40_to_64"", ""75_or…
+$ `Day of week`                   [3m[38;5;246m<chr>[39m[23m ""Weekday"", ""Weekday"", ""Weekday"", ""Weekday"", ""Weekday"", ""Weekday"", ""Weekday"", ""Weekday"", ""Weekday"", ""Weekday"", ""Weekend""…
+$ `Time of day`                   [3m[38;5;246m<chr>[39m[23m ""Night"", ""Day"", ""Day"", ""Day"", ""Day"", ""Day"", ""Day"", ""Day"", ""Day"", ""Day"", ""Night"", ""Night"", ""Night"", ""Night"", ""Day"", ""Day…"
+"1",""
+"1","
+"
